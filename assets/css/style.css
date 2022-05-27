@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: rgb(253, 253, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.hero {
+ background-color: rgb(1, 9, 15);
+ display: flex;
+ justify-content: center;
+ 
+}
+.hero .password-info{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: 2px solid whitesmoke;
+    color: rgb(209, 196, 6);
+    background-color: rgb(9, 43, 75);
+    
+
+   
+}
+.hero .password-info  h2 {
+    font-size: 40px;
+    border-bottom: 1px solid rgb(209, 196, 6);
+    
+}
+
+
+
+.password-info label {
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.password-display .generated-password {
+    font-size: ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.btn{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(209, 196, 6);
+    color: rgb(9, 43, 75);
+}
+.btn:hover{
+    background-color:rgba(209, 196, 6, 0.185);
+}
+
+footer {display: flex;
+    background-color: rgb(1, 9, 15);
+    color: rgb(209, 196, 6);
+    
+    
+}
